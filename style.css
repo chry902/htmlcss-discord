@@ -37,6 +37,7 @@
 /*MENU--------*/
     .menu{
         width: 80%;
+        height: 10%;
         margin: auto;
         background-color: rgb(250, 117, 40);
     }
@@ -71,6 +72,12 @@
     transform: translate(-50%,-50%);
 }
 /*SECTIONs123--------*/
+.se_contain1{
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: darksalmon; 
+}
 
     .se_contain{
         margin: auto;
@@ -85,13 +92,13 @@
     .cont_left{
         float: left;
         background-color: lightgreen;
-        width: 60%;
+        width: 70%;
         height: 100%;
     }
     .cont_right{
         float: left;
         background-color: magenta;
-        width: 40%;
+        width: 30%;
         height: 100%;
     }
 /*SECTIONs4--------*/
@@ -116,4 +123,7 @@
     .bottom{
         background-color: rgb(200, 233, 122);
     }
-    
+ /*SECTIONs4--------*/
+    .footer{
+        background-color: darkturquoise;
+    }
