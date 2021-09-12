@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -133,7 +134,7 @@ a{
         .se_contain{
             margin: auto;
             width: 80%;
-            height: 100%;
+            height: 100vh;
             background-color: darksalmon; 
     }
         .img_contain{
@@ -147,7 +148,6 @@ a{
             transform: translate(-50%,-50%);
             }
             .se_paragraph{
-                font-size: ;
                 font-family: 'Rubik', sans-serif;
                 width: 90%;
                 position: absolute;
@@ -159,7 +159,6 @@ a{
                 margin-top: 10%;
             }
         .section1, .section2, .section3{
-            
             position: relative;
         }
         .item1{
@@ -170,6 +169,11 @@ a{
         }
         .item3{
             background-image: url("./img/item3.svg");
+        }
+        .item4{
+            background-image: url("./img/item4-big.svg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
         }
         
         .cont_left{
@@ -193,93 +197,44 @@ a{
         padding-top: 5%;
         padding-bottom:5%;
     }
-    .top, .sec_bottom{
+    .top, .bottom{
         width: 100%;
-        height: 25%;
+        height: 20%;
     }
     .middle{
         width: 100%;
-        height: 50%;
-        background-size: cover;
-
+        height: 60%;
     }
     .top{
-        background-color: lightcoral;
-    }
-    .middle{
-        background-color:cornsilk ;
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        
     }
     .bottom{
-        background-color: rgb(200, 233, 122);
-    }
- /*SECTIONs4--------*/
- 
-    .footer{
-        
-        background-color: darkturquoise;
-        width: 100%;
-        height: 90vh;
-        
-    }
-    .foot_colonne{
-        margin: auto;
-        width: 80%;
-        height: 90%;
-         
-    }
-    .foot_righe{
+        font-family: 'Rubik', sans-serif;
         text-align: center;
+    }
+    .cont_bott{
         width: 100%;
-        height: 90%;
-        
+        height: 100%;
     }
-   
-   
-/*----- COLONNE-----*/
-    .marrone{
-        background-color: brown;
-        float: left;
-        width: 40%;
-        height: 80%;
-    }
-    .foot_dim{
-        float: left;
-        width: 15%;
-        height: 80%;
-    }
-    .blu{
-       background-color: blue; 
-    }
-    .grigio{
-        background-color: gray;
-    }
-    .azzurro{
-        background-color: cyan;
-    }
-    .verde{
-        background-color: green;
-    }
-/*------RIGHE*/
-    .riga_left, .riga_right{
-        float: left;
-        width: 50%;
-        
-    }
-   .riga_left{
-    background-color: hotpink;
-       
-   }
-   .riga_right{
-       background-color: rgb(141, 76, 85);
-   }
-   .riga{
-       width: 100%;
-       height: 5%;
-       
-       background-color:black;
-   }
-   
-    
-
-    
-   
+    .style_se_4{
+        background-color: white;
+        padding: 12px 28px;
+        border-radius: 20px;
+        margin: 10px;
+        }
+ /*FOOTER--------*/
+        .colonna1{
+            background-color: lightcoral;
+            width: 40%;
+            height: 70%;
+        }
+        .colonna2,
+        .colonna3,
+        .colonna4,
+        .colonna5{
+            background-color: khaki;
+            width: 15%;
+            height: 70%;
+        }
