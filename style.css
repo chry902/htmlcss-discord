@@ -25,7 +25,7 @@
 }
 a{
     text-decoration: none;
-    
+    color: black;
 }
 
 
@@ -88,6 +88,9 @@ a{
         border-radius: 15px;
         line-height: 28px;
     }
+    .tasto > a{
+        color: lightslategray;
+    }
 /*RIQUADRO CON TITOLO--------*/
     .headcontain{
         width: 60%;
@@ -108,13 +111,22 @@ a{
         .head_tasti{
             margin-top: 34px;
         }
-        
-        .style_head_t{
+        .style_head_t {
             background-color: white;
             padding: 12px 28px;
             border-radius: 20px;
             margin: 10px;
         }
+        .head_t_sinistro > a{
+            color: rgb(123, 121, 121)
+        }
+        .head_t_destro{
+            background-color: black;
+        }
+        .head_t_destro > a{
+            color: white;
+        }
+       
 /*SECTIONs123--------*/
         .se_contain1{
             margin: auto;
@@ -153,10 +165,14 @@ a{
         .section1, .section2, .section3{
             position: relative;
         }
+        .section2, .section4{
+            background-color: rgb(246,246,246);
+        }
         .item1{
             background-image: url("./img/item1.svg");
         }
         .item2{
+            
             background-image: url("./img/item2.svg");
         }
         .item3{
@@ -218,11 +234,11 @@ a{
         text-align: center;
     }
     .sez_4{
-       display: inline-block;
+        display: inline-block;
         margin: auto;
         color: white;
         background-color: rgb(142,161,255);
-        padding: 5px;
+        padding: 5px 10px;
         border-radius: 20px;
         margin-top: 10px;
         
@@ -245,9 +261,14 @@ a{
     
         .colonna1{
             width: 40%;
-            
             float: left;
         }
+        .fot_log1{
+            float: left;
+            padding: 5px 10px;
+        }
+        
+        
         
         .colonna2, .colonna3, .colonna4, .colonna5{
             width: 15%;
@@ -264,9 +285,9 @@ a{
             background-color: rgb(35,39,42);
             padding-top:20px;
             border-top: 1px solid rgb(114,137,218);
-           
             width: 80%; 
             color: rgb(114,137,218);
+            padding-bottom: 2rem;
         }
         
         .fot_riga{
@@ -285,3 +306,6 @@ a{
         line-height: 28px;
         }
         
+        .fot_tasto > a{
+            color: white;
+        }
