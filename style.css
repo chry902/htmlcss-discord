@@ -194,10 +194,12 @@ a{
     
 /*SECTIONs4--------*/
     .section4{
+        margin: auto;
+        width: 1000px;
         padding-top: 5%;
         padding-bottom:5%;
     }
-    .top, .bottom{
+    .top.bottom{
         width: 100%;
         height: 20%;
     }
@@ -212,19 +214,29 @@ a{
     }
     .bottom{
         font-family: 'Rubik', sans-serif;
-        text-align: center;
+        
+        
     }
     .cont_bott{
         width: 100%;
         height: 100%;
+        text-align: center;
     }
-    .style_se_4{
+    .sez_4{
+       
+        margin: auto;
         background-color: white;
-        padding: 12px 28px;
+        
+        padding: 5px;
         border-radius: 20px;
-        margin: 10px;
-        }
+        margin-top: 10px;
+        
+    }
+    
  /*FOOTER--------*/
+    .footer{
+        width: 1000px;
+    }
         .colonna1{
             background-color: lightcoral;
             width: 40%;
